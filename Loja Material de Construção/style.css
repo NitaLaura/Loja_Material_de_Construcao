@@ -1,0 +1,196 @@
+.headerprinc{
+	background-color: rgba(255, 255, 255, 0.6);
+	background-image: url(Imagens/tijolos.jpg);
+	background-blend-mode: overlay;
+	width: 100%;
+	top: 0;
+}
+
+.headerarticle{
+	background-color: rgba(0, 191, 255);
+	border-radius: 13px;
+}
+
+body{
+	background-color: rgba(240, 248, 255);
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	color: #0047AB;
+	font-family: Georgia;
+	font-size: 35px;
+}
+
+h2{
+	text-align: center;
+	color: #0047AB;
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+h3{
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+h4{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: Georgia;
+}
+
+p{
+	text-align: justify;
+	color: black;
+	font-size: 16px;
+	text-shadow: 1px 2px 3px skyblue;
+}
+
+#menu ul{
+	list-style: none;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	background-color: #0047AB;
+  width: 95%;
+  border-radius: 13px;
+}
+
+.menu li{
+	margin: 0;
+}
+
+#menu li a{
+	padding: 10px;
+	margin-right: 50px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+#menu li a:hover{
+	background-color: #191970;
+	border-radius: 13px;
+}
+
+.container{
+	margin-top: 10px;
+  display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+
+.container2{
+	padding-top: 10px;
+	margin-left: 3%;
+	margin-right: 3%;
+  display: flex;
+ 	flex-direction: row;
+  justify-content: space-between;
+ 	align-items: center;
+}
+
+.container3{
+	margin-top: 20px;
+  display: flex;
+ 	flex-direction: column;
+  justify-content: space-between;
+ 	align-items: center;
+}
+
+.primeiro{
+  background-color: rgba(192, 192, 192, 0.6);
+  width: 95%;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+.segundo{
+  background-color: rgba(220,220,220, 0.4);
+  width: 95%;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.logo{
+	padding-left: 10px;
+	width: 3em;
+	height: 3em;
+}
+
+.logoloja{
+	width: 30em;
+	height: 10em;
+}
+
+.fotos{
+	width: 9em;
+	height: 9em;
+}
+
+.fidelidade{
+	text-align: center;
+}
+
+.imgfidelidade{
+	width: 42vw;
+	height: 20vw;
+	margin-top: 2vw;
+}
+
+#pesquisa{
+	background-color: #0047AB;
+	border-radius: 10px;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-top: 80px;
+}
+
+.footer{
+	background-color: #DCDCDC;
+	width: 100%;
+	height: 7%;
+	bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 13px;
+}
+
+#tab{
+	margin: auto;
+}
+
+#tab td{
+	padding-bottom: 15px;
+}
+
+#rodape {
+  background-color: #0047AB;
+  color: white;
+  cursor: pointer;
+  padding: 10px 200px;
+  font-size: 18px;
+  border: none;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
+#rodape:hover {
+  background-color: #191970;
+  transition: all 0.3s ease;
+}
